@@ -1,0 +1,27 @@
+.countdown {
+    padding: 10px;
+    border: 2px solid rgb(58, 34, 34);
+    border-radius: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: rgb(121, 72, 33);
+    
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+.countdown__h2 {
+    color: rgb(78, 46, 46);
+    text-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+}
+p {
+    color: rgb(58, 34, 34);
+    text-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+    font-family: 'Fira Sans';
+}
+@media (min-width: 1024px) {
+    .countdown {
+        width: 20%;
+        
+      
+    }
+  }

@@ -1,0 +1,32 @@
+.stopwatch {
+    border-radius: 50%;
+    background-color: rgba(107, 107, 107, 0.87);
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    width: 50%;
+    margin: 20px;
+    border: 2px solid rgb(53, 53, 52);
+    padding: 25px;
+    box-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+    align-self: center;
+}
+.stopwatch__h2 {
+    font-size: 25px;
+    color: rgb(53, 53, 52);
+    text-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+   
+}
+button {
+    padding: 2px;
+    background-color: rgb(53, 53, 52);
+    border-radius: 5px;
+    color: whitesmoke;
+    margin:2px;
+}
+
+@media (min-width: 1024px) {
+    .stopwatch {
+        width: 15%;
+        
+      
+    }
+  }

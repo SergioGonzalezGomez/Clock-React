@@ -1,0 +1,28 @@
+.digital-clock {
+    border-radius: 5px;
+    background-color: black;
+    width: 50%;
+    margin: 20px;
+    border: 3px solid rgb(0, 240, 0);
+    padding: 5px;
+    box-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+    align-self: center;
+}
+.digital-clock__h2 {
+    font-size: 25px;
+    color: rgb(0, 240, 0);
+    text-shadow: 1px 1px 1px rgba(206,206,206,0.97);
+    font-family: 'Supermercado One';
+   
+}
+.digital-clock__h3 {
+    color: rgb(0, 240, 0);
+    font-family: 'Supermercado One';
+}
+@media (min-width: 1024px) {
+    .digital-clock {
+        width: 15%;
+        
+      
+    }
+  }
